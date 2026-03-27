@@ -1,11 +1,13 @@
-let hobbies = ["Eating", "Watching"]
+let hobbies = ["Sleeping", "Drawing", "Watching"]
 
 // hobbies.push(10)
+// array of string so it will not accept a value of number.
 
 // let userList: (string | number)[];
 let userList: Array<string | number>;
+//Union Array which nag-aaccept ng string and number
 
-userList = ["Elmer", "Elmer123", 123456]
+userList = ["Ker", "Mari", 555, "M4riK3r"]
 
 // console.log(userList)
 
@@ -28,13 +30,13 @@ let user: {
 }
 
 // Must not null or undefined
-let val: {} = "Elmer Alvarado"
+let val: {} = "Kermari Magmayo"
 
 // Flexible Object - Record Type
 let data: Record<string, number | string>
 
 data = {
     1: 1,
-    name: 'Elmer'
+    name: 'Kermari'
     // isPartTimeInstructor: true
 }
