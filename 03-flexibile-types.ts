@@ -1,10 +1,12 @@
-let age: any = 31
+let age: any = 20
+// datatype is automatically number since ginamit ang any.
 
 // ...
 
-age = '31'
-age = true
-age = {}
-age = []
+age = '20' //string
+age = true //boolean
+age = {} //object
+age = [] //object
 
 console.log(typeof age)
+//output:: object
